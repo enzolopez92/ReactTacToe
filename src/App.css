@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +31,108 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+#article {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+
+.square.X {
+  color: goldenrod; /* Red color for X */
+}
+
+.square.O {
+  color: teal; /* Blue color for O */
+}
+
+.status {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reset {
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset:hover {
+  background-color: silver;
+}
+
+
+.top-menu {
+  background-color: black;
+  color: white;
+  height: 50px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This will make the container fill the entire viewport height */
+}
+
+.game-board {
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+
+.game-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white; /* Adjust the color as needed */
+}
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.flash {
+  animation: flash 1s infinite;
+}
+
+.increase-font {
+  font-size: calc(100% + 5px); /* Increase font size by 5px */
 }
