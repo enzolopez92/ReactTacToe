@@ -96,9 +96,9 @@ The core logic of the game resides in the App.js file, where React hooks such as
 
 ## Technologies Used
 
-- React
-- React Hooks
-- CSS
+- **Frontend**: 
+  - React.js with React Hooks
+  - CSS (Cascading Style Sheets)
 
 ## Acknowledgements
 
