@@ -1,8 +1,19 @@
 # Getting Started with Create React App
 
+Welcome to ReactTacToe! This is a simple yet elegant Tic Tac Toe game built with React.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Features
+
+- Play Tic Tac Toe against a friend.
+- Enjoy a visually appealing interface.
+- Celebrate your victories with confetti!
+- Demo
+
+
+## Installation
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -68,3 +79,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Open your browser and go to http://localhost:3001 to play the game.
+
+## How to Play
+
+1. Two players take turns to fill in the spaces in a 3x3 grid.
+2. The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins.
+3. If all spaces are filled and no player has achieved a winning pattern, the game ends in a tie.
+
+## Code Overview
+
+The core logic of the game resides in the App.js file, where React hooks such as useState are utilized to manage game state. Here's a snippet:
+
+
+## Technologies Used
+
+- React
+- React Hooks
+- CSS
+
+## Acknowledgements
+
+This project was inspired by the React tutorial on the official React website.
+Confetti animation provided by the react-confetti library.
+
+## License
+
+This project is licensed under the MIT License. Feel free to fork and modify the code to suit your needs.
+
